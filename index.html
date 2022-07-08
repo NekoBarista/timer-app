@@ -5,11 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minute Keeper</title>
-
-
-<input type="text" id="minutes" value="30"></input>
-<button id="start">Play</button> <button id="pause">Pause</button>
+    <style class="style" src="./src/styles.css"></style>
+    <script src="https://kit.fontawesome.com/fdbc8ea13c.js" crossorigin="anonymous"></script>
+</head>
 <body>
+    <svg height="400", width="400" class="dial">
+        <circle 
+        r="190"
+        cx="200"
+        cy="200"
+        fill="transparent"
+        stroke="blue"
+        stroke-width="15"
+        transform="rotate(-90,200,200)"
+        ></circle>
+    </svg>
+<input type="text" id="minutes" value="30"></input>
+<button id="start"><i class="fa-solid fa-play"></i></button> <button id="pause"><i class="fa-solid fa-pause"></i></button>
+
     <script src="./src/timer.js"></script>
     <script src="./src/app.js"></script>
 </body>
