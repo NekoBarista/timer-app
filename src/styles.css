@@ -1,0 +1,72 @@
+dial {
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+  }
+  
+  .timer {
+    
+  margin-top: 5vw;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  
+  * {
+    font: inherit;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+      'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-align: center;
+      background-image: url(./tomato4.jpg);
+      background-position: top;
+      background-repeat:  no-repeat;
+  }
+  
+  .timer input {
+    display: block;
+    border: none;
+    width: 240px;
+    font-size: 90px;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .timer button {
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 36px;
+    cursor: pointer;
+  
+  }
+  
+  .timer button:focus {
+    outline: none;
+    background-color: transparent;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  .timer input:focus {
+    outline: none;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  
